@@ -1,23 +1,6 @@
-# Publication
-[Optimal Environment Control Mechanism Based on OCF Connectivity for Efficient Energy Consumption in Greenhouse](https://ieeexplore.ieee.org/document/9951153)
-   ## Cite: APA
-   A. Rizwan, A. N. Khan, R. Ahmad and D. H. Kim, "Optimal Environment Control Mechanism Based on OCF Connectivity for Efficient Energy Consumption in Greenhouse," in IEEE Internet of Things Journal, 2022, doi: 10.1109/JIOT.2022.3222086.
-   
-   ## Cite: Bibtex
-   
-   @ARTICLE{9951153,
-  author={Rizwan, Atif and Khan, Anam Nawaz and Ahmad, Rashid and Kim, Do Hyeun},
-  journal={IEEE Internet of Things Journal}, 
-  title={Optimal Environment Control Mechanism Based on OCF Connectivity for Efficient Energy Consumption in Greenhouse}, 
-  year={2022},
-  volume={},
-  number={},
-  pages={1-1},
-  doi={10.1109/JIOT.2022.3222086}}
-     
 
 # Architecture of the proposed model
-![](https://github.com/atifrizwan91/Greenhouse/blob/main/Images/Model.png)
+![](https://github.com/atifrizwan1/Greenhouse-Blockchain/blob/main/Images/Model.png)
 
 
 1. First of all Raspberry Pi 4 is configured and Ubuntu OS is installed
@@ -77,12 +60,6 @@
 - After the connection, run the IoTivity server andf client code.
 ![](https://github.com/atifrizwan91/Greenhouse/blob/main/Images/8.PNG)
 
-Final Output of Client and server communication
 
-![](https://github.com/atifrizwan91/Greenhouse/blob/main/Images/OCF%20Diagrams%20-%20Prof.png)
-
-- Energy Saving percentage of proposed model
-
-![](https://github.com/atifrizwan91/Greenhouse/blob/main/Images/energyCon.png)
 
 
