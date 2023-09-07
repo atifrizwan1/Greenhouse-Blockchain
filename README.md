@@ -48,7 +48,7 @@
        - The SSH connection will require some parameter to be set before the connection with the given IP address
        - Firstly Linux is selected as a operating system and the IP address of the Device will be provided in next step of the configuration
        - Dstore.files will be selected next and the linux shell will be selected after that point. 
-       - Finally by selecting the ssh.shell the configuration will be completed and the connection will be established with the IoT device
+       - Finally by selecting the ssh.shell the configuration will be completed and the connection will be established with the IoT devices
 
      
 ![](https://github.com/atifrizwan91/Greenhouse/blob/main/Images/5.PNG)
