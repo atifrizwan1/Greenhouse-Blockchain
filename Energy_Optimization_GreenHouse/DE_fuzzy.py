@@ -1,12 +1,4 @@
-#------------------------------------------------------------------------------+
-#
-#   Sehrish Malik
-#   Simple Particle Swarm Optimization (PSO) with Python
-#   August, 2020
-#
-#------------------------------------------------------------------------------+
 
-#--- IMPORT DEPENDENCIES ------------------------------------------------------+
 
 from __future__ import division
 import random
@@ -24,7 +16,7 @@ def BasicCoolingCost_Rules(currTemp):
     if(currTemp < 21.0):
         BasicEnergyCost = 1.5
     elif(currTemp <= 22.0 and currTemp >= 21.0):
-        BasicEnergyCost = 1.34 
+        BasicEnergyCost = 1.34
     elif(currTemp <= 23.0 and currTemp >= 22.0):
         BasicEnergyCost = 1.22
     elif(currTemp <= 24.0 and currTemp >= 23.0):
@@ -43,7 +35,7 @@ def BasicHumidCost_Rules(currHumid):
     if(currHumid < 40.0):
         BasicEnergyCost = 0.98
     elif(currHumid <= 45.0 and currHumid >= 40.0):
-        BasicEnergyCost = 0.99 
+        BasicEnergyCost = 0.99
     elif(currHumid <= 50.0 and currHumid >= 45.0):
         BasicEnergyCost = 1.08
     elif(currHumid <= 55.0 and currHumid >= 50.0):
@@ -60,7 +52,7 @@ def EnergyMin(x):
     for i in range(len(x)):
         energyTemp = BasicCoolingCost_Rules(x[0])
         energyHumid = BasicHumidCost_Rules(x[1])
-        #print("Temperature Value: "+str(x[0]) +"  Temperature Energy Cost: "+str(energyTemp)+" - - - Humidity Value: "+str(x[1]) +" Humidity Energy Cost: "+str(energyHumid)) 
+        #print("Temperature Value: "+str(x[0]) +"  Temperature Energy Cost: "+str(energyTemp)+" - - - Humidity Value: "+str(x[1]) +" Humidity Energy Cost: "+str(energyHumid))
         energycost = energyTemp + energyHumid
     return energycost
 
@@ -122,7 +114,7 @@ class Particle:
             # adjust minimum position if neseccary
             if self.position_i[i] < bounds[i][0]:
                 self.position_i[i]=bounds[i][0]
-                
+
 
 def PSO(costFunc,x0,bounds,num_particles,maxiter):
         global num_dimensions
@@ -156,7 +148,7 @@ def PSO(costFunc,x0,bounds,num_particles,maxiter):
             i+=1
         return pos_best_g, err_best_g
 
-    
+
 #--- RUN ----------------------------------------------------------------------+
 
 # temp , humid
